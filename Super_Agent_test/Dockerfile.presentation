@@ -1,0 +1,2 @@
+FROM family-agent-superagent:simulation
+RUN python3 -m pip install --no-cache-dir pillow

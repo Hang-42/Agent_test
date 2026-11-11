@@ -1,0 +1,3 @@
+FROM family-agent-superagent:prototype
+COPY src/ /opt/dsh-superagent/src/
+RUN pnpm typecheck && pnpm build

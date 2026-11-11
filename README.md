@@ -9,3 +9,5 @@ git clone --recurse-submodules https://github.com/Hang-42/Agent_test.git
 ```
 
 已有克隆可运行 `git submodule update --init --recursive`。API 密钥、机器专用基础设施信息和缓存文件不包含在仓库中；演示中的家庭成员、情绪和交互数据为合成数据。
+
+激光演示的生成视频 `Super_Agent_test/laser_demo/output/demo_final.mp4` 保留在本机，不包含在 Git 仓库中。

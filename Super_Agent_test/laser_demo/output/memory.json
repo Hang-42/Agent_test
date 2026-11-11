@@ -1,0 +1,13 @@
+{
+  "source": "synthetic",
+  "description": "模拟此前一次互动，非真实儿童数据",
+  "history": [
+    {
+      "topic": "potted_plant",
+      "observation": "成员主动选择了植物卡片"
+    }
+  ],
+  "current_preference": "tv",
+  "visual": true,
+  "quiet": true
+}

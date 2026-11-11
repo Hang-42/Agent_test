@@ -1,0 +1,10 @@
+{
+  "action": "plant",
+  "success": true,
+  "simulation": true,
+  "distance_m": 0.09957914058460647,
+  "pose": [
+    -1.0988763315021217,
+    0.7004271994534869
+  ]
+}

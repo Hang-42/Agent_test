@@ -1,0 +1,21 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+**/credentials.json
+
+# Machine-specific infrastructure details
+Context/项目工作基线.md
+
+# Generated dependencies and caches
+**/node_modules/
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+**/dist/
+**/lib/
+
+# Large generated presentation video (kept locally)
+Super_Agent_test/laser_demo/output/demo_final.mp4

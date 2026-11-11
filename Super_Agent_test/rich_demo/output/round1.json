@@ -1,0 +1,6 @@
+{
+  "map_object": "potted_plant",
+  "greeting": "上次你选了植物卡片，我想陪你到活动点聊聊那盆绿植，轻声说说话，好吗？",
+  "memory_evidence": "memory.json 记录：成员此前主动选择了植物卡片，当前偏好为 potted_plant。",
+  "motion_success": true
+}

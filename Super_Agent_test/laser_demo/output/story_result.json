@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "invite": {
+    "greeting": "还记得你之前喜欢那盆绿植。要不要一起看看它，待一小会儿？不想也没关系。",
+    "map_object": "potted_plant"
+  },
+  "plant": {
+    "success": true,
+    "message": "我们到植物旁边了，我正指向那盆绿植。想一起看看它吗？不想也没关系。"
+  },
+  "leaf": {
+    "success": true,
+    "message": "没关系，我在这儿等你。想看看叶子的时候，跟我说一声就好。"
+  },
+  "tv": {
+    "success": true,
+    "message": "好呀，我们一起看电视图片，我会轻一点、不吵到你。"
+  },
+  "home": {
+    "success": true,
+    "message": "好，我们先休息一下吧，我就在这儿陪着你。"
+  },
+  "recall": {
+    "greeting": "上次你想看电视图片，要不要再看一会儿？不想的话，也可以换回植物。",
+    "map_object": "tv",
+    "memory_evidence": {
+      "current_preference": "tv",
+      "quiet": true,
+      "history_topic": "potted_plant"
+    }
+  }
+}

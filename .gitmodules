@@ -1,0 +1,3 @@
+[submodule "Super_Agent_test/upstream"]
+	path = Super_Agent_test/upstream
+	url = https://github.com/deepseek-ai/dsh-superagent-prototype.git

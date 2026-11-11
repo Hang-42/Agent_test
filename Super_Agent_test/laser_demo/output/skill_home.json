@@ -1,0 +1,10 @@
+{
+  "action": "home",
+  "success": true,
+  "simulation": true,
+  "distance_m": 0.09915718521933159,
+  "pose": [
+    -1.086279119434299,
+    -0.8982032831280228
+  ]
+}

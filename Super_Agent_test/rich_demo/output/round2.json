@@ -1,0 +1,8 @@
+{
+  "reply": "好呀，我记住了：现在想看电视，用图片提示，声音轻一点。",
+  "remembered": {
+    "current_preference": "tv",
+    "visual": true,
+    "quiet": true
+  }
+}

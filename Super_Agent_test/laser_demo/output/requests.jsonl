@@ -1,0 +1,7 @@
+{"at": 1794214399.6509612, "text": "合成家庭仿真：照护者允许短时陪伴。模拟状态为暂未回应、可能低落且置信度低，不做诊断。先读取 /out/memory.json 与 /out/semantic_map.json，根据植物旧记忆和地图写一个简短中文邀请，允许拒绝。将 greeting 和 map_object 写到 /out/invite.json，只能引用真实地图类别，不要运行运动，不使用 GitHub。"}
+{"at": 1794214424.8895948, "text": "模拟小乐明确同意。请按顺序使用 bash /scripts/run_skill.sh activity，然后 bash /scripts/run_skill.sh plant，最后 bash /scripts/run_skill.sh point-plant。每项等待结束并验证对应 /out/skill_*.json 的 success；不要将预设路线描述成地图自主导航。完成后写 /out/stage_plant.json，包含 success 和简短中文提示。只操作仿真。"}
+{"at": 1794214503.1929138, "text": "模拟互动：小乐暂未回应，不判断情绪。请运行 bash /scripts/run_skill.sh point-leaf 并验证 /out/skill_point-leaf.json；写 /out/stage_leaf.json，含 success 与一句耐心的中文提示，不要操作 GitHub。"}
+{"at": 1794214521.419714, "text": "模拟小乐明确请求改看电视图片，声音轻一点。请读取 /out/semantic_map.json 确认 tv 存在，读取并更新 /out/memory.json：current_preference=tv、visual=true、quiet=true，保留已有历史及 source=synthetic。依次运行 bash /scripts/run_skill.sh tv 和 bash /scripts/run_skill.sh point-tv 并验证结果，写 /out/stage_tv.json 含 success、message。不要声称电视已被打开；只在仿真执行。"}
+{"at": 1794214586.7030256, "text": "模拟小乐提出休息。请运行 bash /scripts/run_skill.sh home 并验证 /out/skill_home.json，写 /out/stage_home.json 含 success 和一句中文回应；先关闭虚拟提示，不能再追问。只在仿真。"}
+{"at": 1794214620.9487672, "text": "新一轮模拟互动，小乐只说：我们再玩一次吧。请重新读取 /out/memory.json 与 /out/semantic_map.json，用最新记忆生成一句中文活动建议，提供更换选项，不要声称实际打开电视。写 /out/stage_recall.json，含 greeting、map_object 和 memory_evidence。只在仿真。"}
+{"at": 1794214768.0350478, "text": "模拟小乐刚刚说“这次想看植物”。请生成一句简短中文回应，尊重这次的新选择，不要发起移动或声称已到达植物，也不要使用 GitHub。写 /out/stage_final.json，包含 greeting。"}
